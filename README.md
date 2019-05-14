@@ -15,4 +15,4 @@ Navigate through the planets inside Star Wars Galaxy and check its climate, terr
 * Heroku
 
 ## Check it out
-[Star Wars](https://judibo.github.io/starwars)
+[Star Wars](https://starwarsgal.herokuapp.com)
