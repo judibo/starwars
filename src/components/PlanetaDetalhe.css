@@ -1,0 +1,50 @@
+.PlanetaNome {
+    color: #fbde33;
+    margin: 0;
+    padding: 1em;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.PlanetaDetalhe {
+    border: 1px solid #000;
+    width: 30%;
+    margin: 1em;
+    padding: 0 3em;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: left;
+  }
+
+    
+.BtnPlaneta {
+    display: block;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #fbde33;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    outline: none;
+}
+
+.BtnPlaneta:hover {
+    background: #000;
+    border: 1px solid #fbde33;
+    color: #fff;
+
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fbde33;
+}
