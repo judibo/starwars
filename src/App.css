@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background: url("https://i.ytimg.com/vi/PlLPt3C54mE/maxresdefault.jpg") no-repeat;
+  background: url("https://wallpaperplay.com/walls/full/5/8/0/124160.jpg") no-repeat;
+  background-size: cover;
   height: 100vh;
+  color: #fff;
 }
 
 .App-header {
@@ -11,4 +13,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Poller One', cursive;
+  font-size: 18px;
+  bottom: 0;
 }

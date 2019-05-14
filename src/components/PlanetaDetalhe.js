@@ -1,8 +1,7 @@
 import React from 'react';
 import './PlanetaDetalhe.css'
 
-const PlanetaDetalhe = ({name, population, climate, terrain, films, id, handleIdChange}) => {
-  let page = films ? <p><span>Featured in:</span> {films.map((film) => <li>{film} </li> )}</p> : null;
+const PlanetaDetalhe = ({nFilms, name, population, climate, terrain, id, handleIdChange}) => {
   return (
     <section>
       <div className="PlanetaDetalhe">
@@ -10,9 +9,9 @@ const PlanetaDetalhe = ({name, population, climate, terrain, films, id, handleId
         <p><span>Population:</span> {population}</p>
         <p><span>Climate:</span> {climate}</p>
         <p><span>Terrain:</span> {terrain}</p>
-        {page}
+        <p><span>Featured In:</span> {nFilms} movies</p>
       </div>
-      <button data-id={id} onClick={handleIdChange} className="BtnPlaneta">N E X T</button>
+      <button data-id={id} onClick={handleIdChange} className="BtnPlaneta">NEXT</button>
     </section>
   )
 };

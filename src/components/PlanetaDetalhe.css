@@ -1,16 +1,17 @@
 .PlanetaNome {
     color: #fbde33;
     margin: 0;
-    padding: 1em;
+    padding-bottom: 2em;
     border-bottom: 1px solid white;
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poller One', cursive;
 }
 
 .PlanetaDetalhe {
     border: 1px solid #000;
     width: 30%;
-    margin: 1em;
-    padding: 0 3em;
+    padding: 3em;
     display: inline-block;
     vertical-align: top;
     background-color: rgba(0, 0, 0, 0.8);
@@ -18,25 +19,24 @@
     text-align: left;
   }
 
-    
 .BtnPlaneta {
     display: block;
     padding: 0.5em;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: #fbde33;
     color: #000;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
-    width: 30%;
+    width: 100px;
     outline: none;
+    font-family: 'Poller One', cursive;
 }
 
 .BtnPlaneta:hover {
     background: #000;
     border: 1px solid #fbde33;
     color: #fff;
-
 }
 
 li {
@@ -44,7 +44,8 @@ li {
 }
 
 span {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     color: #fbde33;
+    font-family: 'Poller One', cursive;
 }
